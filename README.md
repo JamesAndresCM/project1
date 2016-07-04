@@ -10,8 +10,8 @@ Activator
 
 https://www.playframework.com/documentation/2.5.x/Installing
 
-2-Create local database "db_example" (or change name database in line 341 app/conf/application.conf :) )
-Add your "username" and "passwd" in app/conf/application.conf (342,343)
+2-Create local database "db_example" (or change name database in line 341 conf/application.conf :) )
+Add your "username" and "passwd" in conf/application.conf (342,343)
 
 3-Move to app dir and execute :
 

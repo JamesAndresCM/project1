@@ -1,8 +1,8 @@
 # Simple Crud playframework2
 
 Requires : Mysql Server 
-\newline Java 1.8 ver 
-\newline Activator
+\newlineJava 1.8 ver 
+\newlineActivator
 
 https://www.playframework.com/documentation/2.5.x/Installing
 

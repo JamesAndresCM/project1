@@ -1,0 +1,69 @@
+run
+exit
+run
+exit
+run
+compile:run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile:run
+compile:run plat.runsupport.ServerStartException
+run
+auto-reloading
+run
+run help
+help
+reload
+run
+reload
+stop
+help
+project
+tasks 
+test
+run
+compile
+run
+last compile:run
+run
+ext
+exit
+run
+compile
+run
+compile
+compile clean
+compile build clean
+compile build 
+compile 
+compile | less
+compile 
+ver
+help
+-h
+-help
+?
+help
+version
+compile
+run
+compile
+run
+compile run
+compile 
+run
+h
+help
+reload
+run
+exit

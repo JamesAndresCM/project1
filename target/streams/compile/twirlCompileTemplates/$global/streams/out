@@ -1,0 +1,4 @@
+[0m[[31merror[0m] [0m/home/snake/Descargas/playframework_projectos/project1/app/views/index.scala.html:46: Expected '}' but found '@'[0m
+[0m[[31merror[0m] [0m							<td><input type="text" placeholder="example@ gmail.com" name="email" id="email"  class="form-control" /></td>[0m
+[0m[[31merror[0m] [0m							                                           ^[0m
+[0m[[31merror[0m] [0m(compile:[31mtwirlCompileTemplates[0m) Twirl compilation failed[0m

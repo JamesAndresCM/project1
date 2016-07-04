@@ -1,0 +1,48 @@
+@(id: Long, userForm: Form[User])
+@import helper._
+@main() {
+  @form(routes.HomeController.updateUserPost(id)) {
+    @inputText(
+        userForm("id"),
+        'id -> "formDatos",
+        'name -> "formDatos",
+        '_label -> "",
+        'style -> "display: none"
+    )
+    <center>
+	<div class="panel panel-default" style="width:35%">
+		<div class="panel-body">
+ 			<fieldset>
+        		<legend align="center">Update User</legend>
+            <div class="col-xs-10">
+					<table align="center" style="width:90%" class="table table table-responsive table-condensed">
+						<tr>
+						<td>@inputText(userForm("Nombre"),
+              'class ->  "form-control")
+             </td>
+          </tr>
+ 						<tr>
+              <td>
+              @inputText(userForm("Email"),
+              'id -> "email",
+              '_label -> "email",
+              'class ->  "form-control",
+              'size -> 30)
+						</td>
+          </tr>
+          <tr>
+            <td>
+            @inputText(userForm("Telefono"),
+            'id -> "telefono",
+            'class ->  "form-control")
+          </td>
+        </tr>
+					</table>
+        </div>
+			</fieldset>
+		</div>
+	</div>
+  <input type="submit" value="Update User" style="margin-right: 40px;" class="btn btn-primary update">
+  <a href="@routes.HomeController.index()" class="btn btn-info" role="button">Volver atras..</a></center>
+	}
+}

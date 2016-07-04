@@ -1,0 +1,64 @@
+@(userForm: Form[User])
+@import helper._
+@main() {
+
+  <legend>Buscar Usuario</legend>
+<div class="input-group">
+  <input type="search" id="search" class="form-control" placeholder="Ingrese Nombre o telefono..." style="width:200%">
+</div>
+<br>
+  <div class="panel panel-default" style="width:70%">
+		<div class="panel-body">
+			<fieldset>
+				<div id="wrapper" class="row" style="overflow:scroll;height:97px;">
+					<table id="datos-1" align="center" style="width:90%" class="table table-responsive table-condensed table-hover">
+						<thead>
+							<tr>
+								<th>Id</th>
+								<th>Nombre</th>
+                <th>Email</th>
+								<th>Telefono</th>
+							</tr>
+						</thead>
+						<tbody id="users">
+						</tbody>
+					</table>
+				</div>
+			</fieldset>
+		</div>
+	</div>
+	<div class="panel panel-default" style="width:40%">
+		<div class="panel-body">
+		<fieldset>
+        	<legend>Crear Usuario</legend>
+			<form action="" id="formDatos" name="formDatos">
+				<div class="form-group">
+					<table align="center" style="width:90%" class="table table-sm">
+						<tr>
+							<td><label>Nombre :</label></td>
+
+							<td><input type="text" name="nombre" id="nombre" class="form-control" /></td>
+
+  					</tr>
+            <tr>
+							<td><label>Email :</label></td>
+
+							<td><input type="text" placeholder="example[at]gmail[dot]com" name="email" id="email"  class="form-control" /></td>
+
+  					</tr>
+            <tr>
+							<td><label>Telefono :</label></td>
+
+							<td><input type="text" placeholder="978XXXXXX" name="telefono" id="telefono"  class="form-control" /></td>
+
+  					</tr>
+
+					</table>
+          <center><button type="submit" class="btn btn-success agregar">Enviar <span class="fa fa-arrow-right"></span></button></center>
+				</div>
+			</form>
+			</fieldset>
+		</div>
+	</div>
+
+}

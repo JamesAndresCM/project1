@@ -12,5 +12,7 @@ activator compile:clean
 activator compile:run
 
 open yout web-browser http://localhost:9000
-<img src="http://i.imgur.com/Puli6eJ.png"/>
+
 enjoy >;)
+
+<img src="http://i.imgur.com/Puli6eJ.png"/>
